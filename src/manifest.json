@@ -2,12 +2,16 @@
 	"manifest_version": 1,
 	"id": "bluulo.JoplinCodeClipboardPlugin",
 	"app_min_version": "2.8",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"name": "Code-Clipboard",
 	"description": "Copy the content of a code block to the clipboard",
 	"author": "bluulo",
 	"homepage_url": "https://github.com/bluulo/joplin-plugin-code-clipboard",
 	"repository_url": "https://github.com/bluulo/joplin-plugin-code-clipboard",
-	"keywords": ["joplin-plugin", "clipboard", "code block"],
+	"keywords": [
+		"joplin-plugin",
+		"clipboard",
+		"code block"
+	],
 	"categories": []
 }
