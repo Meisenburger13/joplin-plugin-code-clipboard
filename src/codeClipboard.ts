@@ -35,7 +35,7 @@ module.exports = {
                             <span class="popuptext">${popupOptions.text}</span>
                         </div>
                     `
-                    return `<div class="code-clipboard-container" style="position: relative">${defaultRender(tokens, idx, options, env, self)} ${button}</div>`;
+                    return `<div class="code-clipboard-container" style="position: relative" onclick="${onClick}">${defaultRender(tokens, idx, options, env, self)} ${button}</div>`;
                 };
             },
             assets: function() {
